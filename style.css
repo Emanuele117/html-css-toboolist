@@ -4,18 +4,19 @@
 
 .logo{
     float: left;
-    margin: 0px 10px 10px 0px ;
 }
 
 .todolist{
     font-size: 35px;
+    margin: auto;
+    padding-left: 80px;
 }
 
 #rettangolo{
-    width: 800px;
-    height: 600px;
+    
+    height: 500px;
     background-color: whitesmoke;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .quadrato{
@@ -29,9 +30,9 @@
 
 #bottone1{
     color: white;
-    background-color: lightskyblue;
+    background-color: rgb(26, 117, 255);
     border-radius: 5px;
-    border-color: lightskyblue;
+    border-color: rgb(26, 117, 255);
     padding: 3px;
     margin-left: 50px;
     margin-top: 15px;
@@ -53,9 +54,111 @@
 
 .lista1{
     list-style: none;
+    line-height: 25px;
+
     
 }
 
 .lista2{
     list-style: none;
+    line-height: 25px;
+}
+
+.lista3{
+    list-style: none;
+    line-height: 25px;
+}
+
+.bottone3{
+    color: white;
+    background-color: rgb(26, 117, 255);
+    border:rgb(26, 117, 255) ;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.bottone4{
+    color: white;
+    background-color: rgb(26, 117, 255);
+    border:rgb(26, 117, 255) ;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.bottone5{
+    color: white;
+    background-color: violet;
+    border:violet ;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.bottone6{
+    color: white;
+    background-color:green ;
+    border: green;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.bottone7{
+    color: white;
+    background-color: orange;
+    border:orange ;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.bottone8{
+    color: white;
+    background-color: pink;
+    border: pink ;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.bottone9{
+    color: white;
+    background-color:lightgreen ;
+    border:lightgreen ;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.bottone10{
+    color: white;
+    background-color: rgb(26, 117, 255);
+    border:rgb(26, 117, 255) ;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 5px; 
+}
+
+span{
+    border: 1px solid green;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: green;
+}
+
+.x{
+    border: 1px solid red;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: red;
 }
