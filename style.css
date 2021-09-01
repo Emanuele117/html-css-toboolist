@@ -1,0 +1,61 @@
+.base{
+    background-color: white; 
+}
+
+.logo{
+    float: left;
+    margin: 0px 10px 10px 0px ;
+}
+
+.todolist{
+    font-size: 35px;
+}
+
+#rettangolo{
+    width: 800px;
+    height: 600px;
+    background-color: whitesmoke;
+    padding-top: 5px;
+}
+
+.quadrato{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+#bottone1{
+    color: white;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border-color: lightskyblue;
+    padding: 3px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#bottone2{
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding: 3px;
+    opacity: 50%;
+}
+
+.linea{
+    opacity: 10%;
+    color: whitesmoke;
+}
+
+.lista1{
+    list-style: none;
+    
+}
+
+.lista2{
+    list-style: none;
+}
