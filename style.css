@@ -1,62 +1,57 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     padding: .75rem 1.5rem;
 }
 
-
-
-body{
-    background-color: white; 
+body {
+    background-color: white;
     font-family: Arial;
 }
 
-.logo{
+.logo {
     float: left;
     display: inline-block;
     vertical-align: middle;
     font-weight: 700;
     font-size: 2rem;
-
 }
 
-.todolist{
+.todolist {
     font-size: 38px;
     margin: auto;
     padding-left: 60px;
 }
 
-#rettangolo{
-    
+#rettangolo {
     height: 600px;
     background-color: whitesmoke;
     padding-top: 10px;
 }
 
-.quadrato{
+.quadrato {
     width: 500px;
-    height: 500px;
+    height: 520px;
     background-color: white;
     margin: auto;
     margin-top: 50px;
-    
 }
 
-#bottone1{
+#bottone1 {
     color: white;
     background-color: rgb(26, 117, 255);
     border-radius: 5px;
     border-color: rgb(26, 117, 255);
     padding: 3px;
     margin-left: 50px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
-#bottone2{
+#bottone2 {
     color: grey;
     background-color: white;
     border-radius: 5px;
@@ -65,106 +60,106 @@ body{
     opacity: 50%;
 }
 
-.linea{
+.linea {
     opacity: 10%;
     color: whitesmoke;
+    margin-top: 10px;
 }
 
-.lista1{
+.lista1 {
     list-style: none;
     line-height: 35px;
     padding-top: 1rem;
     margin-left: 50px;
 }
 
-.lista2{
-    list-style: none;
-    line-height: 35px;
-    margin-left: 50px;
-    padding-top: 1rem;
-    
-}
-
-.lista3{
+.lista2 {
     list-style: none;
     line-height: 35px;
     margin-left: 50px;
     padding-top: 1rem;
 }
 
-.bottone3{
+.lista3 {
+    list-style: none;
+    line-height: 35px;
+    margin-left: 50px;
+    padding-top: 1rem;
+}
+
+.bottone3 {
     color: white;
     background-color: rgb(26, 117, 255);
-    border:rgb(26, 117, 255) ;
+    border: rgb(26, 117, 255);
     border-radius: 30px;
     font-size: 10px;
     padding: 5px;
 }
 
-.bottone4{
+.bottone4 {
     color: white;
     background-color: rgb(26, 117, 255);
-    border:rgb(26, 117, 255) ;
+    border: rgb(26, 117, 255);
     border-radius: 30px;
     font-size: 10px;
     padding: 5px;
 }
 
-.bottone5{
+.bottone5 {
     color: white;
     background-color: violet;
-    border:violet ;
+    border: violet;
     border-radius: 30px;
     font-size: 10px;
     padding: 5px;
 }
 
-.bottone6{
+.bottone6 {
     color: white;
-    background-color:green ;
+    background-color: green;
     border: green;
     border-radius: 30px;
     font-size: 10px;
     padding: 5px;
 }
 
-.bottone7{
+.bottone7 {
     color: white;
     background-color: orange;
-    border:orange ;
+    border: orange;
     border-radius: 30px;
     font-size: 10px;
     padding: 5px;
 }
 
-.bottone8{
+.bottone8 {
     color: white;
     background-color: pink;
-    border: pink ;
+    border: pink;
     border-radius: 30px;
     font-size: 10px;
     padding: 5px;
 }
 
-.bottone9{
+.bottone9 {
     color: white;
-    background-color:lightgreen ;
-    border:lightgreen ;
+    background-color: lightgreen;
+    border: lightgreen;
     border-radius: 30px;
     font-size: 10px;
     padding: 5px;
 }
 
-.bottone10{
+.bottone10 {
     color: white;
     background-color: rgb(26, 117, 255);
-    border:rgb(26, 117, 255) ;
+    border: rgb(26, 117, 255);
     border-radius: 30px;
     font-size: 10px;
-    padding: 5px; 
+    padding: 5px;
 }
 
-span{
+span {
     border: 1px solid green;
     height: 18px;
     width: 18px;
@@ -175,7 +170,7 @@ span{
     color: green;
 }
 
-.x{
+.x {
     border: 1px solid red;
     height: 18px;
     width: 18px;
