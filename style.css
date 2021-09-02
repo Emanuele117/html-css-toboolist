@@ -1,27 +1,45 @@
-.base{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: .75rem 1.5rem;
+}
+
+
+
+body{
     background-color: white; 
+    font-family: Arial;
 }
 
 .logo{
     float: left;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 2rem;
+
 }
 
 .todolist{
-    font-size: 35px;
+    font-size: 38px;
     margin: auto;
-    padding-left: 80px;
+    padding-left: 60px;
 }
 
 #rettangolo{
     
-    height: 500px;
+    height: 600px;
     background-color: whitesmoke;
     padding-top: 10px;
 }
 
 .quadrato{
     width: 500px;
-    height: 400px;
+    height: 500px;
     background-color: white;
     margin: auto;
     margin-top: 50px;
@@ -54,19 +72,24 @@
 
 .lista1{
     list-style: none;
-    line-height: 25px;
-
-    
+    line-height: 35px;
+    padding-top: 1rem;
+    margin-left: 50px;
 }
 
 .lista2{
     list-style: none;
-    line-height: 25px;
+    line-height: 35px;
+    margin-left: 50px;
+    padding-top: 1rem;
+    
 }
 
 .lista3{
     list-style: none;
-    line-height: 25px;
+    line-height: 35px;
+    margin-left: 50px;
+    padding-top: 1rem;
 }
 
 .bottone3{
@@ -161,4 +184,5 @@ span{
     line-height: 20px;
     border-radius: 50%;
     color: red;
+    font-size: 20px;
 }
